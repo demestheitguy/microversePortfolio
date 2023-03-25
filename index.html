@@ -3,19 +3,62 @@
   <head>
     <title>Our Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-vJHUvXxCVrTLZ+cjgpfJtSiMT+5DFjniwPmY0LnwpfERxLQiZvfc9ZS0+SFXNW0gJgeCRTpEXvKj4cDDAVFrlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav id="navbar" class="nav">
-
-    </nav>
+    <header id ="header">
+        <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About US</a>
+          </li>
+          <li>
+            <a href="#projects">Our Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Reach Out</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section id="welcome-section" class="welcome-section">
         <h1>Hey we are Demes and William</h1>
-        <p> we are web developer</p>
+        <p> we are web developers</p>
     </section>
-        <section id="projects" >
-        <h1 id="porjectheader" class="project-tile"> WMS Project</h1>
-        <a href="#porjectheader">WMS Project</a>
-        <p> This is a software to admin Warehouses</p>
-    </section>
+    <h2 style="text-align: center;"> Here are some of our projects</h2>
+        <section id="projects" class="projects-section">
+            <div class="projects-grid">
+              <div class="project-card">
+                <h1 id="projectheader" class="project-tile">WMS Project</h1>
+                <a id="profile-link" id="profile-link" href="#projectheader" target="_blank">
+                  <img src="https://www.optiproerp.com/wp-content/uploads/Warehouse-Management-System-1.png" alt="WMS Project" />
+                  <span>This is a software to admin Warehouses</span>
+                </a>
+              </div>
+          
+              <div class="project-card">
+                <h1 id="projectheader" class="project-tile">Hospital Management Project</h1>
+                <a id="profile-link" href="#projectheader2" target="_blank">
+                  <img src="https://media.licdn.com/dms/image/C5612AQHXpElnKlgFTA/article-cover_image-shrink_600_2000/0/1631271495780?e=2147483647&amp;v=beta&amp;t=G-v2giaPyk2MRBprIyIvJ5voiKmuq89bEH9F-MhPYak" alt="Hospital Management Project" />
+                  <span>This is Hospital Management Project</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section id="contact" class="contact-section">
+            <div>
+              <div class="contact-section-header">
+                <h2 style="text-align: center;">What project do you have in mind?</h2>
+              </div>
+            </div>
+            <div class="contact-links" style="text-align: center;">
+                <p> reach us via </p>
+              <a id="facebook-link" href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i> Facebook ||</a>
+              <a id="twitter-link" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter ||</a>
+              <a id="email-link" href="mailto:info@mail.com" target="_blank"><i class="fas fa-at"></i> Email Us ||</a>
+              <a id="phone-link" href="tel:111-222-3344" target="_blank"><i class="fas fa-mobile-alt"></i> Call Us ||</a>
+            </div>
+          </section>
+
   </body>
 </html>

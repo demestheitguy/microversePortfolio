@@ -17,3 +17,72 @@ html, body {
     font-style: italic;
     color: rgb(165, 37, 37);
   }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: var(--main-white);
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background: rgb(96, 159, 184);
+    z-index: 10;
+  }
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  .nav-list a {
+    display: block;
+    font-size: 1rem;
+    padding: 2rem;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  .project-title a {
+    color: #333;
+  }
+  
+  .project-title a:hover {
+    color: #06c;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project-card span {
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: 780px) {
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    }
